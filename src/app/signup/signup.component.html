@@ -1,0 +1,32 @@
+<div class="registration-class-body">
+  <div class="card container my-form" fluid style="max-width: 400px;">
+    <div class="form-top">
+    <div class="d-flex justify-content-center"><h3 class="text-center login-title" style="max-width: fit-content;">Sign Up</h3></div>
+    <div class="d-flex justify-content-center mb-4 userLogo-div">
+      <img src="../../assets/userAuth.svg" alt="userLogo" class="userLogo">
+    </div>
+  </div>
+    <form>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">👤</span>
+          <input type="email" class="form-control my-input" placeholder="Username" [(ngModel)]="email"
+          [ngModelOptions]="{standalone: true}">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">ꗃ</span>
+          <input type="password" class="form-control my-input" placeholder="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">👤</span>
+          <input type="text" class="form-control my-input" placeholder="name" [(ngModel)]="name" [ngModelOptions]="{standalone: true}">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">📅</span>
+          <input type="date" class="form-control my-input" placeholder="dob" [(ngModel)]="dob" [ngModelOptions]="{standalone: true}">
+        </div>
+      <div class="d-flex justify-content-center">
+        <button type="submit" class="btn m-4 text-center w-100 rounded" style="background-color: #3fd4cf; color: #1f5250;"  (click)="signup()">Signup</button>
+      </div>
+    </form>
+  </div>
+  </div>

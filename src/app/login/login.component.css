@@ -1,0 +1,70 @@
+.registration-class-body {
+    height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#1b6b68, #30a7a3);
+}
+
+.my-form {
+    background-color: rgb(15, 60, 84);
+    border-radius: 10px !important;
+}
+
+.form-top {
+    background-color: rgb(50, 86, 102);
+    margin-bottom: 2rem;
+    min-width: 400px;
+    margin-left: -13px;
+    margin-top: -1px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.login-title {
+    font-size: 22px;
+    background-color: #3fd4cf;
+    padding: .7rem 2.5rem;
+    color: #1f5250;
+    position: relative;
+    top: -1.5rem;
+}
+.userLogo-div {
+    margin-top: -2rem;
+}
+.userLogo {
+    width: 4rem;
+    position: relative;
+    bottom: -3rem;
+}
+
+.my-input {
+    background-color: transparent;
+    color: #1d3247;
+    border: none;
+}
+
+.my-input:focus {
+    outline: none !important;
+}
+
+.input-group {
+    background-color: rgb(85 116 130) !important;
+    border: none;
+    border-radius: 8px;
+}
+
+.input-group span {
+    background-color: transparent !important;
+    border: none;
+    border-right: 1px solid #1d3247;
+}
+
+@media (max-width: 400px) {
+    .form-top {
+        min-width: 100%;
+        margin-left: 0;
+    }
+    
+}
